@@ -1,0 +1,32 @@
+# Ignore user secrets and appsettings with real credentials
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+!appsettings.template.json
+
+# Certificates and private/public keys
+*.cer
+*.crt
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Environment files
+.env
+*.env
+
+# .NET build outputs
+bin/
+obj/
+
+# IDE and Editor files
+.vs/
+.vscode/
+*.user
+*.suo
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
